@@ -13,13 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', [
+    App\Http\Controllers\BlogController::class, 'index']);
 
-Route::get("/detail",function() {
-    return view("posts.detail");
-});
+Route::get("/detail/{id}", [
+    App\Http\Controllers\BlogController::class, 'detail'
+]);
 
 Route::get('/string', function () {
     return "string";

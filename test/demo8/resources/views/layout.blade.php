@@ -9,20 +9,20 @@
     <meta charset="utf-8">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body class="subpage">
 
 <!-- Header -->
 <header id="header" class="alt">
-    <div class="logo"><a href="index.html">Road Trip <span>by TEMPLATED</span></a></div>
+    <div class="logo"><a href="/">Road Trip <span>by TEMPLATED</span></a></div>
     <a href="#menu"><span>Menu</span></a>
 </header><!-- Nav -->
 <nav id="menu">
     <ul class="links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="generic.html">Generic</a></li>
-        <li><a href="elements.html">Elements</a></li>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/generic.html">Generic</a></li>
+        <li><a href="/elements.html">Elements</a></li>
     </ul>
 </nav><!-- Content --><!--
 			Note: To show a background image, set the "data-bg" attribute below
@@ -65,11 +65,11 @@
     Site made with: <a href="https://templated.co/">Templated</a>
 </div>
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<script src="/assets/js/main.js"></script>
 </body>
 </html>
