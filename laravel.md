@@ -160,5 +160,4 @@ path: database/migrations
 laravel 命令行交互
 `php artisan tinker`
 
-
-
+php -S 127.0.0.1:8085 -t public

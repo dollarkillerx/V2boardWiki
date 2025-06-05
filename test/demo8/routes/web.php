@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('homepage');
 });
 
+Route::get("/detail",function() {
+    return view("posts.detail");
+});
+
 Route::get('/string', function () {
     return "string";
 });
