@@ -13,9 +13,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
-});
+Route::get('/', [
+    App\Http\Controllers\BlogController::class, 'index']);
+
+Route::get("/detail/{id}", [
+    App\Http\Controllers\BlogController::class, 'detail'
+]);
+
+Route::get("/detail/{id}/edit", [
+    App\Http\Controllers\BlogController::class, 'edit'
+]);
+
+Route::post("/detail/{id}/update", [
+    App\Http\Controllers\BlogController::class, 'update'
+]);
+
+Route::get("/blog/create", [
+    App\Http\Controllers\BlogController::class, 'create'
+]);
+
+Route::post("/blogs", [
+    App\Http\Controllers\BlogController::class, 'store'
+]);
 
 Route::get('/string', function () {
     return "string";

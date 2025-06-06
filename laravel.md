@@ -7,6 +7,7 @@
 laravel new procject_name
 cd procject_name
 php artisan serve
+php -S 127.0.0.1:8085 -t public
 
 php8.0 or php 8.1 が必要です
 composer create-project laravel/laravel demo8 "8.*"
@@ -159,6 +160,5 @@ path: database/migrations
 
 laravel 命令行交互
 `php artisan tinker`
-
 
 
