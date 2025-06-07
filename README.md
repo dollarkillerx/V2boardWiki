@@ -251,3 +251,5 @@ type User struct {
 | `v2_mail_log`  | 邮件发送日志                   |
 | `failed_jobs`  | Laravel 队列失败任务日志         |
 | `v2_log`       | 操作日志，记录接口调用、错误、IP 等上下文信息 |
+
+![基础设计图](./2025-06-05-2005.png)
