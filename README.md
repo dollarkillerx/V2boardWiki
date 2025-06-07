@@ -1,8 +1,9 @@
 # V2boardWiki
 
+![基础设计图](./2025-06-05-2005.png)
+
 ### 分离主题
 > https://github.com/vlesstop/v2board-theme-buddy
-
 
 ### V2board 目录解析
 ``` 
@@ -252,4 +253,3 @@ type User struct {
 | `failed_jobs`  | Laravel 队列失败任务日志         |
 | `v2_log`       | 操作日志，记录接口调用、错误、IP 等上下文信息 |
 
-![基础设计图](./2025-06-05-2005.png)
