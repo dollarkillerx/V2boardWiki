@@ -10,7 +10,7 @@
 
 ### APP 二次开发
 
-- https://github.com/KaringX/clashmi      ios&Android
+- https://github.com/KaringX/clashmi      ios&Android   (核心功能闭源了)
 - https://github.com/mihomo-party-org/mihomo-party    Windows&MacOS&Linux
 
 ### V2board 目录解析
