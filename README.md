@@ -4,8 +4,14 @@
 
 后端开源 Agent 闭源 前端 闭源
 
-### 分离主题
-> https://github.com/vlesstop/v2board-theme-buddy
+### 设想好的结构
+
+![v2board](./7be025ee-1143-44b3-a60a-cfb35de9ed63.png)
+
+### APP 二次开发
+
+- https://github.com/KaringX/clashmi      ios&Android
+- https://github.com/mihomo-party-org/mihomo-party    Windows&MacOS&Linux
 
 ### V2board 目录解析
 ``` 
