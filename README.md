@@ -2,6 +2,8 @@
 
 ![基础设计图](./2025-06-05-2005.png)
 
+后端开源 Agent 闭源 前端 闭源
+
 ### 分离主题
 > https://github.com/vlesstop/v2board-theme-buddy
 
